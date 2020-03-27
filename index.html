@@ -13,25 +13,27 @@
       <button class="data-entry" id="top-data">0</button>
     </div>
     <div class="calc-body">
-      <button class="top-btn">AC</button>
-      <button class="top-btn">+/-</button>
-      <button class="top-btn">%</button>
-      <button class="operator">/</button><br>
-      <button class="number">7</button>
-      <button class="number">8</button>
-      <button class="number">9</button>
-      <button class="operator">X</button><br>
-      <button class="number">4</button>
-      <button class="number">5</button>
-      <button class="number">6</button>
-      <button class="operator">-</button><br>
-      <button class="number">1</button>
-      <button class="number">2</button>
-      <button class="number">3</button>
-      <button class="operator">+</button><br>
-      <button class="number" id="zero">0</button>
-      <button class="number">.</button>
-      <button class="operator">=</button>
+      <button class="top-btn" onclick="clickBtn(this);">AC</button>
+
+      <button class="top-btn" onclick="clickBtn(this);">+/-</button>
+      <button class="top-btn" onclick="clickBtn(this);">%</button>
+      <button class="operator" id="divide" onclick="clickBtn(this);">/</button><br>
+      <button class="number" onclick="clickBtn(this);">7</button>
+      <button class="number" onclick="clickBtn(this);">8</button>
+      <button class="number" onclick="clickBtn(this);">9</button>
+      <button class="operator" onclick="clickBtn(this);">*</button><br>
+      <button class="number" onclick="clickBtn(this);">4</button>
+      <button class="number" onclick="clickBtn(this);">5</button>
+      <button class="number" onclick="clickBtn(this);">6</button>
+      <button class="operator" onclick="clickBtn(this);">-</button><br>
+      <button class="number" onclick="clickBtn(this);">1</button>
+      <button class="number" onclick="clickBtn(this);">2</button>
+      <button class="number" onclick="clickBtn(this);">3</button>
+      <button class="operator" onclick="clickBtn(this);">+</button><br>
+      <button class="number" id="zero" onclick="clickBtn(this);">0</button>
+      <button class="number" onclick="clickBtn(this);">.</button>
+      <button class="operator" onclick="clickBtn(this);">=</button>
+      </div>
     </div>
   </div>
   <script src="app.js"></script>

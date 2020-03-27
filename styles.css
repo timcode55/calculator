@@ -1,21 +1,18 @@
 body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-}
-
-.container {
+	/* box-sizing: border-box; */
 }
 
 .main {
-	display: grid;
+	display: relative;
 	text-align: center;
-	padding: 100px;
+	margin-top: 100px;
 	justify-items: center;
 }
 
 button {
-	width: 6vw;
+	width: 5vw;
 	height: 6vh;
 	margin: 0 -2px;
 	border: .1px solid black;
@@ -28,25 +25,28 @@ button {
 .number {
 	background-color: grey;
 	color: #e3e3e3;
-	font-size: 1rem;
+	font-size: .9rem;
 }
 
 .operator {
+	display: inline;
 	background-color: #ff9200;
 	color: #e3e3e3;
-	font-size: 1rem;
+	font-size: .9rem;
+	/* margin: 20px; */
 }
 
 #zero {
-	width: 12vw;
+	width: 10vw;
 }
 
 #top-data {
-	width: 24vw;
-	height: 100px;
+	width: 20vw;
+	height: 12vh;
 	background-color: #000000;
 	color: #e3e3e3;
 	text-align: right;
 	padding-right: 40px;
 	font-size: 2rem;
+	margin-bottom: -1px;
 }
